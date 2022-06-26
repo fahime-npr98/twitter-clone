@@ -1,0 +1,62 @@
+.left-side {
+  min-height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  .container {
+    position: fixed;
+    padding: 0 14px;
+  }
+
+  header svg {
+    height: 2rem;
+    padding: 2px;
+    margin: 15px 10px;
+    color: #1da1f2;
+  }
+
+  nav svg {
+    height: 1.75rem;
+    display: block;
+    padding: 12px;
+  }
+  button.more {
+    border: none;
+    cursor: pointer;
+  }
+
+  button.tweet {
+    width: 52px;
+    height: 52px;
+    background: #1da1f2;
+    border: none;
+    border-radius: 50px;
+    margin: 4px 0;
+
+    svg {
+      height: 2rem;
+      color: white;
+      background: #1da1f2;
+    }
+  }
+
+  footer {
+    padding: 12px 0;
+    margin-top: 130px;
+
+    button {
+      border: none;
+    }
+
+    .photo {
+      width: 50px;
+      height: 52px;
+
+      img {
+        width: 100%;
+        border-radius: 50px;
+      }
+    }
+  }
+}
